@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Juego del 15 / Taken</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- <div class="instrucciones flex justify-items-start mt-10">
+        asdasdsd
+
+    </div> -->
+    <div class="cajaDelTablero flex justify-around mt-10">
+        <div class="instrucciones bg-blue-600 flex self-center justify-center flex-col" style="width: 400px; height: 70%">
+            <h1 class="titulo flex text-black font-bold text-3xl bg-white rounded-xl m-5 mt-10 p-2 justify-center">
+                Juego del 15 / Taken
+            </h1>
+            <p class="contenido text-white px-10 py-10 text-justify">
+                <span class="negrita font-bold">Modo de juego: <br></span> 
+                ¡Haz click en las casillas contiguas a la casilla vacia para intercambiar sus posiciones! 
+                Mueve las casillas hasta que los números inscritos en ella estén ordenados de forma ascendente.
+                La casilla vacia debe quedar al principio. 
+            </p>
+            <h2 class="ganar flex text-red-600 font-bold text-xl bg-yellow-400 rounded-xl m-5 px-1 py-2 justify-center invisible">
+                ¡Felicidades! ¡Has ganado!
+            </h2>
+            <h1 class="ganar font-bold text-white px-10 text-center">Forma de ganar</h1>
+            <img src="IMG/TakenGanadoFair.JPG" alt="" class="rounded-xl self-center p-1 mb-10" style="width:50%; height:50%">
+        </div>
+        <div class="zonaJuego flex flex-col">
+            <div class="cont bg-black flex justify-center items-center m-5 rounded-xl" style="width: 480px ; height: 480px;">
+                <div class="tablero bg-black relative" style="width: 435px; height: 430px">           
+                </div>
+            </div>
+            <div class="text-red-600 flex justify-center">
+                <button onclick="revolver()" class="bg-blue-600 hover:bg-sky-400 rounded-lg py-3 mx-3 px-5 text-white font-bold text-center text-3xl">Revolver</button>
+            </div>
+        </div>
+        <div class="espacio text-white">
+            <br> <br>
+            Hecho por Asheyerth -Snow Edition-
+        </div>
+    </div>
+</body>
+
+<script src="/JS/script.js"></script>
+</html>
